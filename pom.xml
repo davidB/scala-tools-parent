@@ -35,9 +35,9 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:svn:http://liftweb.googlecode.com/svn/tags/scala-tools-parent-1.1</connection>
-    <developerConnection>scm:svn:https://liftweb.googlecode.com/svn/tags/scala-tools-parent-1.1</developerConnection>
-    <url>http://www.google.com/codesearch?hl=en&amp;q=show:7DkPXjps4A4:Gh_MDh2h9J0&amp;sa=N&amp;ct=rdl&amp;cs_p=http://liftweb.googlecode.com/svn&amp;cs_f=trunk/liftweb/scala-tools/tags/scala-tools-parent-1.1?hl=en&amp;q=show:7DkPXjps4A4:Gh_MDh2h9J0&amp;sa=N&amp;ct=rdl&amp;cs_p=http://liftweb.googlecode.com/svn&amp;cs_f=trunk/liftweb/scala-tools</url>
+    <connection>scm:git:git://github.com/davidB/scala-tools-parent.git</connection>
+    <developerConnection>scm:git:git@github.com:davidB/scala-tools-parent.git</developerConnection>
+    <url>http://github.com/davidB/scala-tools-parent/</url>
   </scm>
   <mailingLists>
     <mailingList>

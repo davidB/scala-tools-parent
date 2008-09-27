@@ -18,7 +18,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.scala-tools</groupId>
   <artifactId>scala-tools-parent</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.4</version>
   <packaging>pom</packaging>
   <name>${project.artifactId}</name>
   <url>http://scala-tools.org/</url>
@@ -35,9 +35,9 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:git://github.com/davidB/scala-tools-parent.git</connection>
-    <developerConnection>scm:git:git@github.com:davidB/scala-tools-parent.git</developerConnection>
-    <url>http://github.com/davidB/scala-tools-parent/</url>
+    <connection>scm:git:git://github.com/davidB/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:davidB/${project.artifactId}.git</developerConnection>
+    <url>http://github.com/davidB/${project.artifactId}/</url>
   </scm>
   <mailingLists>
     <mailingList>
@@ -48,11 +48,11 @@
       <archive>http://dir.gmane.org/gmane.comp.lang.scala.announce</archive>
     </mailingList>
     <mailingList>
-      <name>Scala tools</name>
-      <post>scala-tools[at]listes.epfl.ch</post>
-      <subscribe>http://listes.epfl.ch/cgi-bin/doc_en?liste=scala-tools</subscribe>
-      <unsubscribe>http://listes.epfl.ch/cgi-bin/doc_en?liste=scala-tools</unsubscribe>
-      <archive>http://dir.gmane.org/gmane.comp.lang.scala.tools</archive>
+      <name>Maven and Scala</name>
+      <post>maven-and-scala@googlegroups.com</post>
+      <subscribe>http://groups.google.com/group/maven-and-scala</subscribe>
+      <unsubscribe>http://groups.google.com/group/maven-and-scala</unsubscribe>
+      <archive>http://groups.google.com/group/maven-and-scala</archive>
     </mailingList>
   </mailingLists>
 
@@ -69,13 +69,6 @@
   </repositories>
 
   <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.wagon</groupId>
-        <artifactId>wagon-webdav</artifactId>
-        <version>1.0-beta-2</version>
-      </extension>
-    </extensions>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -172,7 +165,7 @@
   <distributionManagement>
     <snapshotRepository>
       <id>scala-tools.org</id>
-      <url>dav:http://dav.scala-tools.org/repo-snapshots</url>
+      <url>http://scala-tools.org/nexus/content/repositories/snapshots</url>
       <uniqueVersion>false</uniqueVersion>
     </snapshotRepository>
   </distributionManagement>
@@ -233,7 +226,7 @@
       <distributionManagement>
         <repository>
           <id>scala-tools.org</id>
-          <url>dav:http://dav.scala-tools.org/repo-releases</url>
+          <url>http://scala-tools.org/nexus/repo-releases</url>
         </repository>
         <site>
           <!--

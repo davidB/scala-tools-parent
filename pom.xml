@@ -226,7 +226,7 @@
       <distributionManagement>
         <repository>
           <id>scala-tools.org</id>
-          <url>http://scala-tools.org/nexus/repo-releases</url>
+          <url>http://scala-tools.org/nexus/content/repositories/releases</url>
         </repository>
         <site>
           <!--
